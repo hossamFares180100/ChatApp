@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">Sign In ?</string>
+    <string name="or">OR</string>
+    <string name="name">Name</string>
+    <string name="sign_upB">Sign up</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="sign_upT">Sign Up ?</string>
+    <string name="signIn">Sign In</string>
+    <string name="login_with_google">LogIn With Google</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email_to_reset_password">Enter Your Email to Reset Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="signout">signOut</string>
+    <string name="chat">Chats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="people_fragment">People Fragment</string>
+    <string name="chat_fragment">Chat Fragment</string>
+    <string name="discover_fragment">Discover Fragment</string>
+    <string name="people">People</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="me">Me</string>
+    <string name="username">Hossam F Alsayed</string>
+    <string name="slide_to_cancel">Slide to Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="time">%d\'</string>
+    <string name="hold_to_record_audio">Hold to record, release to send</string>
+</resources>

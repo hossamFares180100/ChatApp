@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="15dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_error"
+                app:tint="@color/colorPurple"
+                android:layout_gravity="center">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Enter Your Email to Reset Password"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_email_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            android:hint="@string/e_mail"
+            app:hintEnabled="false">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/icon_email"
+                android:drawableTint="@color/colorPurple"
+                android:textColorHint="@color/black"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:hint="Enter Your Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/ed_custom"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/btn_get_pass"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="Reset Password"
+            android:background="@drawable/round_bg"
+            android:textAllCaps="false"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            app:spinning_bar_padding="4dp"
+            app:spinning_bar_width="2dp"
+            app:initialCornerAngle="15dp"
+            app:spinning_bar_color="#fff"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
